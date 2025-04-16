@@ -337,7 +337,7 @@ We have three options for how we return back to the caller:
 
 * a) Push the PC back on the stack and use a `RTS`
 * b) Use an absolute `JMP $abs`
-* c) Use an indirect `JMP ($indirect)
+* c) Use an indirect `JMP ($indirect)`
 
 In the example below the label `TextPC` isn't needed. It is included so you have a symbol
 in your assembler / debugger for reference.
@@ -471,7 +471,7 @@ PrintSM LDA $C0DE,y         ;     SELF-MODIFIED  ---+    
 TextM   ASC "Self Modify",8D,00
 ```
 
-**NOTE:** There is nothing fancy about the dummary address `$C0De`. It
+**NOTE:** There is nothing fancy about the dummary address `$C0DE`. It
 is just a "cute" visual reminder that that magic-number is just a dummy one.
 
 
