@@ -1,0 +1,10 @@
+access  = $E3
+aux     = $0800
+type    = $06
+kind    = $01
+date    = $0000
+time    = $0000
+version = $24
+minver  = $00
+moddate = $0000
+modtime = $0000
