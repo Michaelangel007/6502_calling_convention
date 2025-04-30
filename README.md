@@ -1,5 +1,7 @@
 # Passing arguments to a 6502 assembly language function
 
+![Pass Function Data](pics/pass_func_data.png)
+
 There are different ways assembly code can pass an argument to a function.
 Each of these are known as a "calling convention". 
 
